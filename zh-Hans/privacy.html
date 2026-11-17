@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>隐私政策 · 小页</title>
+<style>
+:root { color-scheme: light dark; --bg: #f9f7f2; --paper: #fffdf8;
+  --ink: #28251f; --sub: #625b4e; --line: #e7dfd2; --accent: #795c27; }
+@media (prefers-color-scheme: dark) { :root { --bg:#1d1b18; --paper:#27241f;
+  --ink:#f3ecdf; --sub:#d4c7b5; --line:#443c31; --accent:#e5c58a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--ink);
+  font: 16px/1.7 system-ui, -apple-system, sans-serif; }
+main { width:min(45rem, calc(100% - 2rem)); margin:clamp(1.5rem, 7vw, 4.5rem) auto;
+  background:var(--paper); padding:clamp(1.35rem, 6vw, 3.5rem);
+  border:1px solid var(--line); border-radius:1.25rem; }
+nav { display:flex; align-items:baseline; flex-wrap:wrap; gap:.6rem 1.1rem;
+  border-bottom:1px solid var(--line); padding-bottom:1rem; }
+nav strong { margin-right:auto; font-family:ui-serif, Georgia, serif; }
+a { color:var(--accent); text-underline-offset:.18em; overflow-wrap:anywhere; }
+a:focus-visible { outline:2px solid var(--accent); outline-offset:3px; }
+h1 { font:650 clamp(2rem, 6vw, 3rem)/1.18 ui-serif, Georgia, serif; margin:1.5rem 0 1rem; }
+p { margin:1.15rem 0 0; }
+.meta { color:var(--sub); font-size:.91em; }
+.notice { border-left:3px solid var(--accent); padding-left:1rem; }
+</style>
+</head>
+<body><main>
+<nav aria-label="小页"><strong>小页</strong><a href="support.html">帮助与支持</a><a href="privacy.html" aria-current="page">隐私政策</a><a lang="en-US" href="../en-US/privacy.html">English</a></nav>
+<h1>隐私政策</h1>
+<p class="meta">运营者 游逸飞 · 联系与删除请求 <a href="mailto:contact_felix_you@163.com">contact_felix_you@163.com</a></p><p class="meta">生效日期 2026-11-17</p><p>小页将导入资料的本地副本、提取文字、生成的学习页、题目、作答记录、阅读位置和设置保存在这台 Mac。API 密钥保存在系统钥匙串。应用目前没有自建账号服务、广告或行为分析 SDK，也不提供跨设备同步。</p>
+<p>当你选择联网生成或相关模型处理时，应用会向你配置的模型服务发送为该任务选定的资料文字、必要的 PDF 页面图像、模型指令和参数，并使用你的 API 密钥进行认证。目录识别可能需要发送目录／候选正文页面或标题。逐页问答发送当前讲解、对应原文和问题。测试连接会发送小型测试请求。供应商也会接收到网络请求通常包含的元数据，例如 IP 地址。生成过程中使用的资料可能含个人信息，请仅发送你有权使用的内容。</p>
+<p>开发者不运营统一的模型转发服务。第三方服务对请求的留存、训练使用、费用和删除办法取决于你选择的供应商与账户约定；小页不能代其承诺不保存或不训练。选择服务前请查看其隐私政策。</p>
+<p>离线阅读和练习已保存内容无需再次调用模型。不使用联网生成可避免新任务的资料发送；停止任务可取消后续处理并丢弃本次结果，但不能撤回已到达供应商的请求。</p>
+<p>你可以在书架移除教材及其相关学习记录、本地副本；原始导入文件不会因此删除。在设置中清空对应服务的密钥并保存，可删除该服务的本机钥匙串记录。删除本机资料不会自动删除供应商已留存的数据，后者应向供应商申请。卸载应用未必清除本机资料或钥匙串条目。</p>
+<p>若主动寻求支持，开发者会接收到你自行提供的邮件与诊断材料，仅用于处理该支持请求；请不要发送 API 密钥或未经授权的教材。</p><p>支持邮件与必要附件通常保留到工单结束后 90 天。若依法需要延长留存，将按适用要求处理。</p>
+</main></body>
+</html>
